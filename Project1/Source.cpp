@@ -139,9 +139,9 @@ void loginPrompt() {
 
 	if (!login(email, password))
 	{
+		cout << "\n*********\nInvalid email or password\n\n[1] Retry\n[2] Back to Main Menu\n";
 		do
 		{
-			cout << "\n*********\nInvalid email or password\n\n[1] Retry\n[2] Back to Main Menu\n";
 			cin >> choice;
 			switch (choice)
 			{
